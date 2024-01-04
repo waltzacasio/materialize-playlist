@@ -46,9 +46,15 @@
       box-shadow: 0 0 10px 2px white;
     }
 
+    /* Center the icon vertically */
+    .brand-logo i.material-icons {
+    line-height: 64px; /* Adjust the line-height based on your navigation bar height */
+    font-size: 36px; /* Adjust the font-size to increase the icon size */
+    }
+
     .section{
-      padding-top: 4vw;
-      padding-bottom: 4vw;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
     }
     .tabs .indicator{
       background-color: #1a237e;
@@ -56,6 +62,9 @@
     .tabs .tab a:focus, .tabs .tab a:focus.active{
       background: transparent;
     }
+
+
+
   </style>
 </head>
 <body>
@@ -64,7 +73,7 @@
   <header>
     <nav class="nav-wrapper custom-bg-color">
       <div class="container">
-        <a href="#" class="brand-logo">WalterDev.Info</a>
+        <a href="#" class="brand-logo"><i class="material-icons">code</i>WalterDev.Info</a>
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
@@ -111,30 +120,32 @@
 
   <!-- photo / grid -->
   <section class="container section scrollspy" id="photos">
-    <div class="row">
+    <div class="row section">
       <div class="col s12 l4">
-          <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+          <img src="img/add.jpg" alt="" class="responsive-img materialboxed z-depth-4">
       </div>
       <div class="col s12 l6 offset-l1">
-        <h2 class="indigo-text text-darken-4">Portraits</h2>
+        <h2 class="center-align indigo-text text-darken-4">Add Record</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
       </div>
     </div>
-    <div class="row">
+    <hr class="">
+    <div class="row section">
       <div class="col s12 l4 offset-l1 push-l7">
-          <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+          <img src="img/deleted.jpg" alt="" class="responsive-img materialboxed z-depth-4">
       </div>
       <div class="col s12 l6 offset-l1 pull-l5 right-align">
-        <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+        <h2 class="center-align indigo-text text-darken-4">Delete Records</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
       </div>
     </div>
-    <div class="row">
+    <hr class="">
+    <div class="row section">
       <div class="col s12 l4">
-          <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+          <img src="img/details.jpg" alt="" class="responsive-img materialboxed z-depth-4">
       </div>
       <div class="col s12 l6 offset-l1">
-        <h2 class="indigo-text text-darken-4">Nature</h2>
+        <h2 class="center-align indigo-text text-darken-4">Details & Edit History</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
       </div>
     </div>
@@ -143,7 +154,7 @@
   <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
-      <img src="img/street.jpg" alt="" class="responsive-img">
+      <img src="img/coding5.jpg" alt="" class="responsive-img">
     </div>
   </div>
 
@@ -159,19 +170,19 @@
         <!-- tabs -->
         <ul class="tabs">
           <li class="tab col s6">
-            <a href="#photography" class="active indigo-text text-darken-4">Photography</a>
+            <a href="#photography" class="active indigo-text text-darken-4">Front-End</a>
           </li>
           <li class="tab col s6">
-            <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+            <a href="#editing" class="indigo-text text-darken-4">Back-End</a>
           </li>
         </ul>
         <div id="photography" class="col s12">
-            <p class="flow-text indigo-text text-darken-4">Photography</p>
+            <p class="flow-text indigo-text text-darken-4">Front-End</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
             <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
         </div>
         <div id="editing" class="col s12">
-            <p class="flow-text indigo-text text-darken-4">Editing</p>
+            <p class="flow-text indigo-text text-darken-4">Back-End</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
             <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
         </div>
@@ -183,7 +194,7 @@
   <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
-      <img src="img/stars.jpg" alt="" class="responsive-img">
+      <img src="img/coding6.jpg" alt="" class="responsive-img">
     </div>
   </div>
 

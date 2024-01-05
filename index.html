@@ -209,39 +209,25 @@
         <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
       </div>
       <div class="col s12 l5 offset-l2">
-        <form>
+        <form id="emailForm">
           <div class="input-field">
             <i class="material-icons prefix">email</i>
-            <input type="email" id="email">
+            <input type="email" id="email" name="email">
             <label for="email">Your Email</label>
           </div>
           <div class="input-field">
             <i class="material-icons prefix">message</i>
-            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+            <textarea id="message" class="materialize-textarea" cols="20" rows="20" name="message"></textarea>
             <label for="message">Your Message</label>
           </div>
           <div class="input-field">
             <i class="material-icons prefix">date_range</i>
-            <input type="text" id="date" class="datepicker">
+            <input type="text" id="date" class="datepicker" name="date">
             <label for="date">Choose a date you need me for...</label>
           </div>
-          <div class="input-field">
-            <p>Services required:</p>
-            <p>
-              <label>
-                <input type="checkbox">
-                <span>Photography</span>
-              </label>
-            </p>
-            <p>
-              <label>
-                <input type="checkbox">
-                <span>Photo Editing</span>
-              </label>
-            </p>
-          </div>
+
           <div class="input-field center">
-            <button class="btn">Submit</button>
+            <button class="btn" id="submitButton" onclick="sendEmail()">Submit</button>
           </div>
         </form>
       </div>
@@ -285,12 +271,36 @@
       $('.tabs').tabs();
       $('.datepicker').datepicker({
         disableWeekends: true,
-        yearRange: 1
+        yearRange: 1,
+        minDate: new Date(),
+        autoClose: true 
       });
       $('.tooltipped').tooltip();
       $('.scrollspy').scrollSpy();
 
     });
+
+    function sendEmail() {
+            var formData = new FormData(document.getElementById("emailForm"));
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "email.php", true);
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    // Check if the response indicates success
+                    if (xhr.status == 200 && xhr.responseText === "Email sent successfully.") {
+                        // Change the button text
+                        document.getElementById("submitButton").innerText = "Email Sent!";
+                    } else {
+                        // Handle other cases, e.g., display an error message
+                        alert("Failed to send email.");
+                    }
+                }
+            };
+
+            xhr.send(formData);
+        }
   </script>
 </body>
 </html>

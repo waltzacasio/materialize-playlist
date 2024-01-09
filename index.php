@@ -78,17 +78,11 @@
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#photos">Photo's</a></li>
+          <li><a href="#photos">Features</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
-            <i class="fab fa-instagram"></i>
-          </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
-            <i class="fab fa-facebook"></i>
-          </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Twitter">
-            <i class="fab fa-twitter"></i>
+          <li><a href="https://github.com/waltzacasio" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Github"> 
+            <i class="fab fa-github"></i>
           </a></li>
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
@@ -126,7 +120,7 @@
       </div>
       <div class="col s12 l6 offset-l1">
         <h2 class="center-align indigo-text text-darken-4">Add Record</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+        <p>The "Add Record" feature lets users input and store new information in a system, maintaining an organized database. It enhances efficiency in various applications like CRM systems, inventory databases, and project management tools.</p>
       </div>
     </div>
     <hr class="">
@@ -136,7 +130,8 @@
       </div>
       <div class="col s12 l6 offset-l1 pull-l5 right-align">
         <h2 class="center-align indigo-text text-darken-4">Delete Records</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+        <p>
+          The "Delete Records" feature enables users to selectively remove outdated or irrelevant entries from a system's dataset, ensuring data accuracy and relevance. It's a vital tool in various applications, enhancing overall system efficiency.</p>
       </div>
     </div>
     <hr class="">
@@ -146,7 +141,8 @@
       </div>
       <div class="col s12 l6 offset-l1">
         <h2 class="center-align indigo-text text-darken-4">Details & Edit History</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+        <p>
+          The "Details & Edit History" feature provides a comprehensive view of specific information along with a chronological record of edits made over time. It enhances transparency and accountability, especially useful in collaborative environments and content management systems.</p>
       </div>
     </div>
   </section>
@@ -163,9 +159,8 @@
     <div class="row">
       <div class="col s12 l4">
         <h2 class="indigo-text text-darken-4">What I do..</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
-      </div>
+        <p>My skill set encompasses the entire web development process, from designing user interfaces to implementing server-side logic and database management. This comprehensive approach allows me to create robust and user-friendly web applications.</p>
+      </div>  
       <div class="col s12 l6 offset-l2">
         <!-- tabs -->
         <ul class="tabs">
@@ -178,13 +173,11 @@
         </ul>
         <div id="photography" class="col s12">
             <p class="flow-text indigo-text text-darken-4">Front-End</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+            <p>On the frontend, I am adept at using JavaScript to enhance interactivity and create dynamic user interfaces. Additionally, I utilize Materialize CSS to design responsive and visually appealing layouts, ensuring a seamless user experience across various devices.</p>
         </div>
         <div id="editing" class="col s12">
             <p class="flow-text indigo-text text-darken-4">Back-End</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+            <p>As a full-stack developer, I proficiently work on both the frontend and backend aspects of web development. My primary programming language is PHP, and I have extensive experience using the CodeIgniter framework. In the backend, I leverage MySQL for database management, ensuring efficient data storage and retrieval.</p>
         </div>
         </div>
       </div>
@@ -200,13 +193,12 @@
 
   <!-- contact form -->
   <section class="section container scrollspy" id="contact">
-    <div class="row">
+    <div class="row valign-wrapper">
       <div class="col s12 l5">
         <h2 class="indigo-text text-darken-4">Get in Touch</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        <p>Feel free to contact me.</p>
+        <p>I am looking for a long-term job because i need to feed my cat.</p>
+
       </div>
       <div class="col s12 l5 offset-l2">
         <!-- email form -->
@@ -234,7 +226,9 @@
           </div>
         </form>
 
-        <div id="result"></div>
+        <div>
+          <h5 id="result" class="center-align"></h5>
+        </div>
 
       </div>
     </div>
@@ -252,16 +246,15 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/walter-acasio-8949431b6/">Linked In</a></li>
+
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright grey darken-4">
-      <div class="container center-align">&copy; 2018 Photo Ninja</div>
+      <div class="container center-align">&copy; <?= date('Y'); ?> WalterDev.Info</div>
     </div>
   </footer>
 
@@ -288,6 +281,7 @@
 
     function sendEmail() {
     var form = document.getElementById("emailForm");
+    var submitButton = form.querySelector('button[type="button"]');
 
     // Use the Fetch API to send the form data to the server
     fetch('/email.php', {

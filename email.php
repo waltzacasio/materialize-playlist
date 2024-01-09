@@ -15,7 +15,7 @@ $to = "walter@walterdev.info";
     $headers = 'From: WalterDev.Info'; // Replace with your actual email address
 
     if (mail($to, $subject, $message, $headers)) {
-        $response = ['message' => 'Email sent successfully'];
+        $response = ['message' => 'Email sent successfully!'];
     } else {
         $response = ['message' => 'Failed to send email, please try again later.'];
     }

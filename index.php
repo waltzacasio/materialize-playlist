@@ -97,7 +97,7 @@
       <div class="row">
         <div class="white-text">
           <h2 class="center-align">Record Keeping CRM</h2>
-          <p class="center-align">Contact me if you want a personal demo.</p>
+          <p class="center-align">with an elaborate Search, Add, Edit, Delete features.</p>
       </div>
       
     </div>
@@ -196,8 +196,7 @@
     <div class="row valign-wrapper">
       <div class="col s12 l5">
         <h2 class="indigo-text text-darken-4">Get in Touch</h2>
-        <p>Feel free to contact me.</p>
-        <p>I am looking for a long-term job because i need to feed my cat.</p>
+        <p>Feel free to contact me if you want a personal demo.</p>
 
       </div>
       <div class="col s12 l5 offset-l2">
@@ -240,8 +239,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5>About Me</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          <p>I am looking for long-term work because i need to feed my cat.</p>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Connect</h5>

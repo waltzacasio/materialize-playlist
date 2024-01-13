@@ -73,22 +73,22 @@
   <header>
     <nav class="nav-wrapper custom-bg-color">
       <div class="container">
-        <a href="#" class="brand-logo"><i class="material-icons">code</i>WalterDev.Info</a>
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
+              <a href="#" class="brand-logo"><i class="material-icons hide-on-small-and-down">code</i>WalterDev.Info</a>
+              <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#photos">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/waltzacasio" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Github"> 
+                  <i class="fab fa-github"></i>
+                </a></li>
+              </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
           <li><a href="#photos">Features</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="https://github.com/waltzacasio" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Github"> 
-            <i class="fab fa-github"></i>
-          </a></li>
-        </ul>
-        <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#">Photo's</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -104,7 +104,7 @@
 
     <div class="container section">
       <div class="row">
-        <img src="img/search.jpg" alt="" class="responsive-img materialboxed" id="heroImage">
+        <img src="img/search_blurred.jpg" alt="" class="responsive-img materialboxed" id="heroImage">
       </div>
     </div>
 
@@ -116,7 +116,7 @@
   <section class="container section scrollspy" id="photos">
     <div class="row section">
       <div class="col s12 l4">
-          <img src="img/add.jpg" alt="" class="responsive-img materialboxed z-depth-4">
+          <img src="img/add_blurred.jpg" alt="" class="responsive-img materialboxed z-depth-4">
       </div>
       <div class="col s12 l6 offset-l1">
         <h2 class="center-align indigo-text text-darken-4">Add Record</h2>
@@ -126,7 +126,7 @@
     <hr class="">
     <div class="row section">
       <div class="col s12 l4 offset-l1 push-l7">
-          <img src="img/deleted.jpg" alt="" class="responsive-img materialboxed z-depth-4">
+          <img src="img/deleted_blurred.jpg" alt="" class="responsive-img materialboxed z-depth-4">
       </div>
       <div class="col s12 l6 offset-l1 pull-l5 right-align">
         <h2 class="center-align indigo-text text-darken-4">Delete Records</h2>
@@ -137,7 +137,7 @@
     <hr class="">
     <div class="row section">
       <div class="col s12 l4">
-          <img src="img/details.jpg" alt="" class="responsive-img materialboxed z-depth-4">
+          <img src="img/details_blurred.jpg" alt="" class="responsive-img materialboxed z-depth-4">
       </div>
       <div class="col s12 l6 offset-l1">
         <h2 class="center-align indigo-text text-darken-4">Details & Edit History</h2>
@@ -193,7 +193,7 @@
 
   <!-- contact form -->
   <section class="section container scrollspy" id="contact">
-    <div class="row valign-wrapper">
+    <div class="row">
       <div class="col s12 l5">
         <h2 class="indigo-text text-darken-4">Get in Touch</h2>
         <p>Feel free to contact me if you want a personal demo.</p>

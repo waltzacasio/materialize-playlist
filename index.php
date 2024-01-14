@@ -89,6 +89,7 @@
           <li><a href="#photos">Features</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/waltzacasio">Github</a></li>
         </ul>
       </div>
     </nav>
